@@ -1,0 +1,4 @@
+Title: Fumble
+Author: Buddy
+ /fumble [speed]
+ /canFumble [target/toggle]
