@@ -37,7 +37,7 @@ function servercmdCanFumble(%client,%find)
 	if(!isObject(%victim = findclientbyBL_ID(%find)))
 		if(!isObject(%victim = findclientbyname(%find)))
 		{
-			%client.chatMessage("\c6Could not find \""@ %find @"\" by BLID or Name");
+			%client.chatMessage("\c6Could not find "@ %find @" by BLID or Name");
 			return;
 		}
 	%victim.canFumble = !%victim.canFumble;
